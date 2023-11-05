@@ -8,7 +8,7 @@
 #hero{
   height: 100vh;
   width: 100vw;
-  background: url('https://lp-cms-production.imgix.net/2020-11/500pxRF_122032123.jpg?auto=format&w=1440&h=810&fit=crop&q=75');
+  background:url('https://i0.wp.com/samudramaldives.com/wp-content/uploads/things-to-do-in-maldives-at-night.jpg?fit=1920%2C1280&ssl=1');
   background-position: center;
   background-size: cover;
 
@@ -23,14 +23,61 @@
  color: #eee;
 
 }
+#hero header h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Lobster', sans-serif;
+}
 #hero header nav ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
   gap: 2rem;
+  
+}
+#hero header nav ul li:hover{
+color: #93690f;
+transition: 0.3s;
+border-bottom:1px solid #93690f;
 
 
-
-
+}
+#hero header nav ul li:hover{
+  cursor: pointer;
+}
+#hero main{
+max-width: 40rem;
+position:absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+text-align: center;
+}
+#hero main h1{
+ font-size: 3rem;
+ margin-bottom: 1rem;
+ color: #eee;
+ font-family: 'Lobster', sans-serif;
+}
+#hero main h1 span{
+  color: #93690f;
+}
+#hero main p{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+#hero main a{
+  background-color: #db9705;
+  font-size: 1.0rem;
+  font-weight: 400;
+  padding: 0.8rem,1rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  color: #ddd;
+}
+#hero main a:hover{
+  background-color: #93690f;
+  transition: 0.3s;
 }
