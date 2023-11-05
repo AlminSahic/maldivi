@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #eee;
+ 
 }
 #hero{
   height: 100vh;
@@ -11,5 +11,26 @@
   background: url('https://lp-cms-production.imgix.net/2020-11/500pxRF_122032123.jpg?auto=format&w=1440&h=810&fit=crop&q=75');
   background-position: center;
   background-size: cover;
+
+}
+#hero header{
+ height: 8vh;
+ padding-left:4rem;
+ padding-right: 4rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #eee;
+
+}
+#hero header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+
+
+
 
 }
