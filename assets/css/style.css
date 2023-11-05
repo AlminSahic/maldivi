@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+}
+#hero{
+  height: 100vh;
+  width: 100vw;
+  background: url('https://lp-cms-production.imgix.net/2020-11/500pxRF_122032123.jpg?auto=format&w=1440&h=810&fit=crop&q=75');
+  background-position: center;
+  background-size: cover;
+
+}
